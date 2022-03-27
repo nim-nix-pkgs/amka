@@ -11,6 +11,7 @@
   inputs.src-amka-master.ref   = "refs/heads/master";
   inputs.src-amka-master.owner = "zoispag";
   inputs.src-amka-master.repo  = "amka-nim";
+  inputs.src-amka-master.dir   = "";
   inputs.src-amka-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
